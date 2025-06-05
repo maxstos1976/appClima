@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/img/clear.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App Clima</title>
+  </head>
+  <body>
+    <main class="card normal">
+      <div class="search">
+        <input type="text" placeholder="Digite o nome da cidade" />
+        <button>
+          <img src="./img/search.svg" alt="" />
+        </button>
+      </div>
+      <div class="weather">
+        <img class="weather-icon" src="./img/clear.png" alt="" />
+        <h1 class="temp">???</h1>
+        <h2 class="city">***</h2>
+
+        <div class="details">
+          <div class="col">
+            <img src="./img/humidity.png" width="40" height="40" alt="" />
+            <div>
+              <p class="humidity">50%</p>
+              <p>Humidade</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="./img/wind.png" width="40" height="40" alt="" />
+            <div>
+              <p class="wind">14 km/h</p>
+              <p>Vel do vento</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
