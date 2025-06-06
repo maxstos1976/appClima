@@ -1,6 +1,5 @@
 // 5d8509c4cc6b9e81e649ee770bd9dbaf (API - KEY)
 // https://api.openweathermap.org/data/2.5/weather?q=London&appid=5d8509c4cc6b9e81e649ee770bd9dbaf&units=metric
-
 import "./style.css";
 
 const apiKey = "5d8509c4cc6b9e81e649ee770bd9dbaf";
